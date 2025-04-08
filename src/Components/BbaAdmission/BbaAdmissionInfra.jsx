@@ -1,5 +1,5 @@
 import React from "react";
-import MyImage from "../../assets/Images/new-infra.png";
+import MyImage from "../../assets/Images/Landingpage_Iu1.jpg";
 import icon1 from "../../assets/Images/ranking.png";
 import icon2 from "../../assets/Images/badge.png";
 import icon3 from "../../assets/Images/top.png";
@@ -9,7 +9,6 @@ import iconCard3 from "../../assets/Images/leading-recruiters.png";
 import iconCard4 from "../../assets/Images/IT-labs.png";
 import iconCard5 from "../../assets/Images/guest-lectures.png";
 import iconCard6 from "../../assets/Images/growth-opportunities.png";
-
 
 function FinanceManagementStudying() {
   return (
@@ -26,7 +25,7 @@ function FinanceManagementStudying() {
       {/* Left Side (Text and Cards Section) */}
       <div className="w-full md:w-1/2 flex flex-col justify-center mb-4">
         <h1 className="text-3xl md:text-4xl font-semibold text-left mb-2">
-          Invent. Integrate. Impact.
+          Invent, Integrate, Impact.
         </h1>
 
         <h1 className="text-xl md:text-2xl font-semibold text-[#2899A4]">
@@ -42,85 +41,106 @@ function FinanceManagementStudying() {
           strong industry exposure, your BBA journey at Indira will be both
           exciting and transformative.
         </p>
-{/* 6 Cards Grid */}
-<div className="grid grid-cols-2 grid-rows-3 gap-4">
-  {/* Card 1 */}
-  <div
-    className="bg-[#fff] p-2 shadow-lg border-2 border-[#002D6A] flex items-center rounded-lg"
-    data-aos="zoom-in"
-  >
-    <span className="flex items-center space-x-2">
-      <img src={iconCard1} alt="Academic Excellence" className="w-12 h-12" />
-      <span className="text-sm text-black font-semibold text-left">
-        30 Years of academic excellence
-      </span>
-    </span>
-  </div>
+        {/* 6 Cards Grid */}
+        <div className="grid grid-cols-2 grid-rows-3 gap-4">
+          {/* Card 1 */}
+          <div
+            className="bg-[#fff] p-2 shadow-lg border-2 border-[#002D6A] flex items-center rounded-lg"
+            data-aos="zoom-in"
+          >
+            <span className="flex items-center space-x-2">
+              <img
+                src={iconCard1}
+                alt="Academic Excellence"
+                className="w-12 h-12"
+              />
+              <span className="text-sm text-black font-semibold text-left">
+                30 Years of academic excellence
+              </span>
+            </span>
+          </div>
 
-  {/* Card 2 */}
-  <div
-    className="bg-[#fff] p-2 shadow-lg border-2 border-[#002D6A] flex items-center rounded-lg"
-    data-aos="zoom-in"
-  >
-    <span className="flex items-center space-x-2">
-      <img src={iconCard2} alt="Leading Recruiters" className="w-12 h-12" />
-      <span className="text-sm text-black font-semibold text-left">
-        450+ leading recruiters
-      </span>
-    </span>
-  </div>
+          {/* Card 2 */}
+          <div
+            className="bg-[#fff] p-2 shadow-lg border-2 border-[#002D6A] flex items-center rounded-lg"
+            data-aos="zoom-in"
+          >
+            <span className="flex items-center space-x-2">
+              <img
+                src={iconCard2}
+                alt="Leading Recruiters"
+                className="w-12 h-12"
+              />
+              <span className="text-sm text-black font-semibold text-left">
+                450+ leading recruiters
+              </span>
+            </span>
+          </div>
 
-  {/* Card 3 */}
-  <div
-    className="bg-[#fff] p-2 shadow-lg border-2 border-[#002D6A] flex items-center rounded-lg"
-    data-aos="zoom-in"
-  >
-    <span className="flex items-center space-x-2">
-      <img src={iconCard3} alt="Industrial Exposure" className="w-12 h-12" />
-      <span className="text-sm text-black font-semibold text-left">
-        Exposure to industrial guest lectures
-      </span>
-    </span>
-  </div>
+          {/* Card 3 */}
+          <div
+            className="bg-[#fff] p-2 shadow-lg border-2 border-[#002D6A] flex items-center rounded-lg"
+            data-aos="zoom-in"
+          >
+            <span className="flex items-center space-x-2">
+              <img
+                src={iconCard3}
+                alt="Industrial Exposure"
+                className="w-12 h-12"
+              />
+              <span className="text-sm text-black font-semibold text-left">
+                Exposure to industrial guest lectures
+              </span>
+            </span>
+          </div>
 
-  {/* Card 4 */}
-  <div
-    className="bg-[#fff] p-2 shadow-lg border-2 border-[#002D6A] flex items-center rounded-lg"
-    data-aos="zoom-in"
-  >
-    <span className="flex items-center space-x-2">
-      <img src={iconCard4} alt="Placement Opportunities" className="w-12 h-12" />
-      <span className="text-sm text-black font-semibold text-left">
-        Top placement opportunities
-      </span>
-    </span>
-  </div>
+          {/* Card 4 */}
+          <div
+            className="bg-[#fff] p-2 shadow-lg border-2 border-[#002D6A] flex items-center rounded-lg"
+            data-aos="zoom-in"
+          >
+            <span className="flex items-center space-x-2">
+              <img
+                src={iconCard4}
+                alt="Placement Opportunities"
+                className="w-12 h-12"
+              />
+              <span className="text-sm text-black font-semibold text-left">
+                Top placement opportunities
+              </span>
+            </span>
+          </div>
 
-  {/* Card 5 */}
-  <div
-    className="bg-[#fff] p-2 shadow-lg border-2 border-[#002D6A] flex items-center rounded-lg"
-    data-aos="zoom-in"
-  >
-    <span className="flex items-center space-x-2">
-      <img src={iconCard5} alt="IT Labs" className="w-12 h-12" />
-      <span className="text-sm text-black font-semibold text-left">IT labs</span>
-    </span>
-  </div>
+          {/* Card 5 */}
+          <div
+            className="bg-[#fff] p-2 shadow-lg border-2 border-[#002D6A] flex items-center rounded-lg"
+            data-aos="zoom-in"
+          >
+            <span className="flex items-center space-x-2">
+              <img src={iconCard5} alt="IT Labs" className="w-12 h-12" />
+              <span className="text-sm text-black font-semibold text-left">
+                IT labs
+              </span>
+            </span>
+          </div>
 
-  {/* Card 6 */}
-  <div
-    className="bg-[#fff] p-2 shadow-lg border-2 border-[#002D6A] flex items-center rounded-lg"
-    data-aos="zoom-in"
-  >
-    <span className="flex items-center space-x-2">
-      <img src={iconCard6} alt="Growth Opportunities" className="w-12 h-12" />
-      <span className="text-sm text-black font-semibold text-left">
-        Exceptional growth opportunities
-      </span>
-    </span>
-  </div>
-</div>
-
+          {/* Card 6 */}
+          <div
+            className="bg-[#fff] p-2 shadow-lg border-2 border-[#002D6A] flex items-center rounded-lg"
+            data-aos="zoom-in"
+          >
+            <span className="flex items-center space-x-2">
+              <img
+                src={iconCard6}
+                alt="Growth Opportunities"
+                className="w-12 h-12"
+              />
+              <span className="text-sm text-black font-semibold text-left">
+                Exceptional growth opportunities
+              </span>
+            </span>
+          </div>
+        </div>
 
         {/* 3 Cards Below with Icons */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
