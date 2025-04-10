@@ -42,7 +42,7 @@ function FinanceManagementStudying() {
           exciting and transformative.
         </p>
         {/* 6 Cards Grid */}
-        <div className="grid grid-cols-2 grid-rows-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-3 gap-4">
           {/* Card 1 */}
           <div
             className="bg-[#fff] p-2 shadow-lg border-2 border-[#002D6A] flex items-center rounded-lg"
